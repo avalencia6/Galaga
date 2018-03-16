@@ -1,2 +1,6 @@
 # Galaga
 Galaga on mBed
+
+I completed this project for my Engineering Software Design class. This project involved creating a version of the classic Galaga video game on an embedded microsystem called mBed. Initially, my goal was to simply create an interface to shoot a bullet at aliens and destroy those moving objects, which were the minimum requirements for this project. I then added functionality for the spaceship that was shooting the aliens to move from side to side as well. The game also now randomly generates six alien enemies of four possible alien types, so each play-through presents different enemies and can have varying difficulty. I have also included sound effects and end-game stats, with plans to add color support, an initial game screen with the ability to select the difficulty, death animations, and ability to save high scores on an SD card in the future. 
+
+Some hardware features of this video game include an LED display, three push buttons to control the spaceship's movement and shooting, and a speaker for sound effects. In the future, the push buttons will be used to select the difficulty. The SD card to be used to store high scores is already successfully wired into the system, and simply needs code to run it.
